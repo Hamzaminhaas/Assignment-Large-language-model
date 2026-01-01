@@ -1,13 +1,13 @@
 # Assignment-Large-language-model
 Large language model
-BERT-Large Topic Classification on 20 Newsgroups
-Project Description
+### BERT-Large Topic Classification on 20 Newsgroups
+###Project Description
 
 This repository contains a topic classification system built using a fine-tuned BERT-Large model. The project investigates how modern transformer-based models perform on multi-class document classification compared to a strong traditional machine learning baseline.
 
 The task involves assigning each document to one of 20 predefined topic categories using the well-known 20 Newsgroups dataset.
 
-What This Project Covers
+### What This Project Covers
 
 Fine-tuning a pre-trained BERT-Large model for text classification
 
@@ -19,7 +19,7 @@ Implementing a TF-IDF + Logistic Regression baseline
 
 Comparing contextual and non-contextual approaches using standard metrics
 
-Dataset Used
+### Dataset Used
 
 The experiments are conducted on the 20 Newsgroups dataset, a widely used benchmark for topic classification tasks.
 
@@ -35,7 +35,7 @@ Source: Hugging Face Datasets
 
 The dataset covers a diverse range of topics including technology, politics, science, religion, and recreation.
 
-Model Configuration
+### Model Configuration
 BERT-Large Fine-Tuning
 
 Base model: bert-large-uncased
@@ -68,7 +68,7 @@ Stop-word removal: Enabled
 
 This baseline highlights the performance difference between frequency-based and contextual approaches.
 
-Evaluation Metrics
+### Evaluation Metrics
 
 Model performance is evaluated using:
 
@@ -84,7 +84,7 @@ Confusion matrix for class-wise analysis
 
 Weighted averaging is used to account for minor class imbalance.
 
-Results Summary
+### Results Summary
 
 TF-IDF + Logistic Regression
 
@@ -100,7 +100,7 @@ Weighted F1-score: 0.72
 
 The BERT-Large model consistently outperforms the baseline, particularly for topics with overlapping vocabulary.
 
-Key Insights
+### Key Insights
 
 Contextual embeddings significantly improve topic understanding
 
@@ -122,6 +122,6 @@ Applying early stopping or stronger regularisation
 
 Exploring data augmentation techniques
 
-Purpose of This Work
+### Purpose of This Work
 
 This project was completed as part of an academic coursework assignment, with the objective of comparing transformer-based models against traditional machine learning approaches for document-level topic classification.
